@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+* {padding:0; margin:0}
+/***** Global Settings *****/
+/***** Headings *****/
+h1, h2, h3, h4, h5, h6 {margin:0;padding:0;font-weight:normal}
+h1 {padding:30px 0 25px 0;letter-spacing:-1px;font-size:2em}
+h2 {padding:20px 0;letter-spacing:-1px;font-size:1.5em}
+h3 {font-size:1em;font-weight:bold}
+/***** Common Formatting *****/
+blockquote {margin:1.25em;padding:1.25em 1.25em 0 1.25em}
+small {font-size:0.85em}
+img {border:0}
+sup {position:relative;bottom:0.3em;vertical-align:baseline}
+sub {position:relative;bottom:-0.2em;vertical-align:baseline}
+acronym, abbr {cursor:help;letter-spacing:1px;border-bottom:1px dashed}
+/***** Links *****/
+a, a:link, a:visited,{color: #FC7215;text-decoration:none}
+a:hover{color: #FC7215;border-bottom: none;text-decoration:none} 
+/***** Forms *****/
+form {margin:0;padding:0;display:inline}
+label {cursor:pointer}
+.cursor {cursor:pointer}
+ 
+/***** Wrapper *****/
+html, body, td, form, input, textarea {font-family:Arial, Helvetica, sans-serif}
+body {background-color:#FFFFFF;color:#000000;font-size:14px;font-weight:normal}
+
+.w250{width:250px}
+.w260{width:260px}
+
+.h60{height:60px}
+.h80{height:80px}
+
+.pt20{padding-top:20px}
+
+.pl4 {padding-left:4px}
+.pl15 {padding-left:15px}
+.mt5 {margin-top:5px}
+.fsize12{font-size:12px !important}
+
+.whats-this{text-decoration:none;color:#2784B0;}
+.whats-this:hover{text-decoration:underline;color:#FC7215;}
+.draggable{position:absolute;left:422px;top:680px;opacity:1;z-index:10000;background-color:white;padding:15px 20px;border:1px solid #FC7215;cursor:move}
+
+a img, img{border:0}
+
+/****************************MENU***************************/
+body {background:#fff;margin:0;padding:0;color:#000;font-family:Arial}
+html>body {font-size:small;}
+
+.div_edit_result_bottom {background:transparent url(../images/cn_round_bottom.jpg) no-repeat scroll 0 0;height:16px}
+
+/***************wizard*/
+
+.step_center_panel{float:left; width:30px; border:1px solid #eeeeee}
+.step_right_panel{float:left; width:520px; border:0px solid yellow}
+	
+
+.other_filters_text_leftpadding{padding-left:3px; font-size:12px;}
+.other_filters_checkbox_toppadding{padding-top:2px}
+.heading-padd{padding:5px 0 0 10px}
+.text-padd{padding:5px 10px 0 20px}
+.text-padd-1{padding:10px 0 0 20px}
+.text-padd-2{padding:10px 0 0 5px}
+
+/*USED ON EDIT STREAM*/
+
+.tooltip {position:absolute;left:50px;visibility:hidden;padding:8px;color:#000000;background-color:#FFFFFF;border:#990000 1px solid;width:200px;text-align:justify}
+.yellowBorder {margin: 5px 10px 5px 0;padding: 12px;text-align: left;background: url(../images/yellow_notif.png) no-repeat;width:397px;height:33px;position:absolute;top:200px}
+
+/**********************************************/
+/******* NEW classes STYLES ********************/
+/**********************************************/
+.div_noise_filter{ margin-top:20px; margin-bottom:20px;}
+.topic_level_div{ background-color:transparent;padding-bottom:0px;margin-left:0px;padding-left:25px; width:300px; padding-top:5px; }
+
+
+.dark-grey{background-color:#eee}
+.round-top-left{background:url(../images/t_l_s.gif) no-repeat;width:8px;height:8px}
+.round-top-right{background:url(../images/t_r_s.gif) no-repeat;width:8px;height:8px}
+.round-bottom-left{background:url(../images/b_l_s.gif) no-repeat;width:8px;height:8px}
+.round-bottom-right{background:url(../images/b_r_s.gif) no-repeat;width:8px;height:8px}
+
+.step_left_panel{float:left;width:353px;border:0px solid red}
+.div_edit_result_top {background:transparent url(../images/cn_round_top.jpg) no-repeat scroll 0 0;height:39px}
+.div_edit_result_repeat {background:transparent url(../images/cn_round_repeat.jpg) repeat-y scroll 0 0;padding-left:15px;font-size:11px;color:black}
+
+/***** TABS Classes *****/
+.cn_wizard_lb_link_style_selected{ font-family:Arial, Helvetica, sans-serif; font-size:12px; background: url(../images/cn_small_selection_of_left_box.jpg) no-repeat scroll center bottom;color:#000000;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer;}
+.cn_wizard_lb_link_style_attribute_unselect{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999999;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer}
+.cn_wizard_lb_link_style_attribute_unselect1{font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#999999;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer}
+.cn_wizard_lb_link_style_attribute_unselect2{font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#999999;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer}
+.cn_wizard_lb_link_style_attribute_unselect3{font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#999999;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer}
+.cn_wizard_lb_link_style_attribute_unselect4{font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#999999;font-weight:normal;float:left;padding:12px 5px 0;height:22px;cursor:pointer}
+.cn_wizard_lb_link_style{font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#999999;font-weight:normal;float:left;padding-top:12px;height:22px;cursor:pointer}
+
+.round-container{background:#f2f0f1;margin-bottom:15px}
+.home_page_sub_heading_styles {color:#686868;font-size:14px;font-weight:normal;font-family:Arial, Helvetica, sans-serif;}
+.button-refresh { -moz-background-clip:border;-moz-background-inline-policy:continuous;	-moz-background-origin:padding; background:#21759B url(../images/btn_repeater.png) repeat-x scroll left top;border-color:#298CBA !important;color:#FFFFFF !important;font-weight:bold; cursor:pointer;}	
+
+.button-refresh:hover { border-color: #13455b !important; color: #EAF2FA !important; }
+.default_link_color{color:#2784B0;}
+
+.div_contest_options{padding-top:10px}
+.contest_descp{width:250px; height:60px;}
+.contest_vmsg{width:250px; height:60px;}
+/***** Global Classes *****/
+.clear { clear:both}
+.clear1 { clear:both;height:10px}
+.clear3 { clear:both;height:30px}
+
+.text-left { text-align:left}
+
+.fleft { float:left}
+.fright { float:right}
+
+.pl10 {padding-left:10px}
+.pl20 {padding-left:20px}
+.pt5 {padding-top:5px}
+.pt10 {padding-top:10px}
+.pr10 {padding-right:10px}
+.pr15 {padding-right:15px !important}
+.pr20 {padding-right:20px}
+.mt10 {margin-top:10px}
+.mb10 {margin-bottom:10px}
+.mb20 {margin-bottom:20px !important}
+
+.w300{width:300px}
+.w318{width:318px}
